@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+
+.Particle_div{
+  width: 100%;
+  height : 90vh;
+  position: relative;
+  margin-top:40px;
+  
+}
+
+#tsparticles{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(204, 25, 25);
+    background-image: url('../sunset.jpg');
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    }
+
+    .intro_text{
+        font-size: 160%;
+        color: black;
+        font-weight: lighter;
+        font-family: 'Flamenco', cursive;
+    }
+    .Person_Name
+    {
+        color:red;
+    }
+
+    
+    .wrap {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 40px;
+      }
+      
+      .button {
+        min-width: 200px;
+        min-height: 50px;
+        font-family: 'Nunito', sans-serif;
+        font-size: 22px;
+        text-transform: uppercase;
+        letter-spacing: 1.3px;
+        font-weight: 700;
+        color: #313133;
+        background: #4FD1C5;
+      background: linear-gradient(90deg, rgba(129,230,217,1) 0%, rgba(79,209,197,1) 100%);
+        border: none;
+        border-radius: 1000px;
+        box-shadow: 12px 12px 24px rgba(79,209,197,.64);
+        transition: all 0.3s ease-in-out 0s;
+        cursor: pointer;
+        outline: none;
+        position: relative;
+        padding: 10px;
+        }
+     
+      .button:hover, .button:focus {
+        color: #313133;
+        transform: translateY(-6px);
+      }
+      
+      button:hover::before, button:focus::before {
+        opacity: 1;
+      }
+      
+     
+      @media screen and (max-width: 800px) {
+        .Particle_div {
+          width: 100%;
+          height : 60vh;
+          position: relative
+        }
+      }
+      
+      @keyframes ring {
+        0% {
+          width: 30px;
+          height: 30px;
+          opacity: 1;
+        }
+        100% {
+          width: 300px;
+          height: 300px;
+          opacity: 0;
+        }
+      }

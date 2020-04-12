@@ -1,0 +1,11 @@
+
+.progress-bar-success {
+    background-color: #00ccff;
+}
+.progress {height: 25px !important;}
+.progress-bar{
+    font-size: 20px;
+}
+.Skill{
+    color: red;
+}

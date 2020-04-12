@@ -1,0 +1,32 @@
+.Connect{
+   
+        height: 250px;
+        width: 99%;
+        background-color: black;
+        margin: 1%;    
+}
+.Connect_icon{
+    display: flex;
+    justify-content: center;
+}
+
+.connect_image{
+    margin-top: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.Quotes{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.Quotes_Para{
+    font-size: 20px;
+    color: white;
+    font-style: italic;
+    margin-left: 4px;
+    margin-right: 4px;
+    font-weight: lighter;
+}
