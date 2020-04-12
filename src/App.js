@@ -20,7 +20,6 @@ function App() {
     <Menu></Menu>
     <Border></Border>
     <Background></Background>
-    <Border></Border>
     <About></About>
     <Image></Image>
     <Skill></Skill>
