@@ -18,7 +18,14 @@ var style1 = {
 
 
 };
+
+const downloadFile = () => {
+  window.location.href = "https://portfolio-api185-dev.herokuapp.com/Resume/5e97880889790c001700c62a"
+}
+
 class Background extends Component {
+
+  
 
   render() {
 
@@ -52,7 +59,7 @@ class Background extends Component {
           }}
         />
         <div style={style1}><p className="intro_text"><b>Hello , I am <span className="Person_Name" >Sharad kumar</span><br />I'm a <span className="Person_Name" >full-stack</span> web developer.</b></p><div class="wrap">
-          <button class="button">Resume</button>
+          <button class="button" onClick={downloadFile}>Resume</button>
         </div>
         </div>
    >
