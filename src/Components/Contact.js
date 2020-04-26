@@ -4,7 +4,7 @@ class Contact extends Component {
     render() {
         return (
             <div className="Contact" id="5">
-                 <h2 className="Contact_txt">Contact Us</h2>
+                 <h2 className="Contact_txt">Contact Me</h2>
                   <p className="Contact_txt_des">Have a question or want to work together?</p>
                 <div className="Form">
                 <div class="row_contact">
@@ -18,7 +18,7 @@ class Contact extends Component {
     <div class="row_contact">
       
       <div class="col-75">
-        <input className="Name" type="text" id="fname" name="firstname" placeholder="Your name.."/>
+        <input className="Name" type="text" id="fname" name="firstname" placeholder="Your Email.."/>
       </div>
       
     </div>

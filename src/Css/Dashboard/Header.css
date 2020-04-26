@@ -1,0 +1,14 @@
+.Dash_header{
+    height: 50px;
+    width: 100%;
+    background-color: #1a8cff;
+}
+.Dash_header_para{
+    font-weight: bold;
+    font-family: cursive;
+    font-style: italic;
+    color: white;
+    padding: 5px;
+    font-size: 30px;
+    margin-left: 15px;
+}

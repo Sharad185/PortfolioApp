@@ -1,0 +1,13 @@
+.dashboard{
+    width: 100%;
+}
+.btn {
+    padding: 5px 5px 5px 6px;
+    margin-top: 0px;
+}
+.Loader_div{
+    align-items: center;
+     display: flex;
+     justify-content: center;
+     margin-top: 20%;
+}

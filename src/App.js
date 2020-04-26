@@ -1,35 +1,27 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import Menu from './Components/Menu';
-import Background from './Components/Background'
-import Border from './Components/Border'
-import Skill from './Components/Skill';
-import About from './Components/About';
-import Experience from './Components/Experience'
-import Image from './Components/Image'
-import Contact from './Components/Contact';
-import Connect from './Components/Connect';
 
+import './App.css';
+
+import { BrowserRouter,Route,Switch} from "react-router-dom";
+import Login from './Components/Login'
+import Home from './Components/Home'
+import Dashboard from './Components/Dashboard'
 function App() {
 
-  
-  return (
+ return (
+
+  <BrowserRouter>
+
 <div>
-  
-    <Menu></Menu>
-    <Border></Border>
-    <Background></Background>
-    <About></About>
-    <Image></Image>
-    <Skill></Skill>
-    <Experience></Experience>
-    <Contact></Contact>
-    <Connect></Connect>
-    
-  
-  
+
+<Switch> 
+<Route path='/' exact component={Home}></Route>
+<Route path='/Login' component={Login}></Route>
+<Route path='/Dashboard' component={Dashboard}></Route>
+</Switch>
 </div>
+</BrowserRouter>
+
   );
 }
 
